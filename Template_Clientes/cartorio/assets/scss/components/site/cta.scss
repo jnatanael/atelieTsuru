@@ -1,0 +1,45 @@
+#cta {
+    margin: -80px 0 0;
+    position: relative;
+    .m6 {
+        padding: 0;
+    }
+    color: color("shades", "white");
+    h2 {
+        color: color("shades", "white");
+        margin: 0;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    p {
+        font-size: 1.3rem;
+        margin: 1.5rem 0 4rem;
+    }
+    .btn {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+#ctaCredor,
+#ctaDevedor {
+    @extend .z-depth-5;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 60px !important;
+    section {
+        padding: 6rem 2rem;
+    }
+}
+
+#ctaCredor {
+    background-color: #5bc0de;
+    background-position: left bottom;
+    border-top-left-radius: 60px;
+}
+
+#ctaDevedor {
+    background-color: $success-color;
+    background-position: right bottom;
+    border-top-right-radius: 60px;
+}

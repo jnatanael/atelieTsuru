@@ -1,0 +1,48 @@
+nav .brand-logo img {
+    height: 60px;
+    width: auto;
+}
+
+.btn-login {
+    width: 100%;
+    font-weight: normal;
+    margin-top: -5px;
+}
+
+#headerPage {
+    @extend .center;
+    color: #ffffff;
+    .container {
+        z-index: 1;
+    }
+    h1 {
+        color: #ffffff;
+        line-height: 3.5rem;
+    }
+    .description {
+        &::before {
+            content: '';
+            position: absolute;
+            width: 26%;
+            height: 3px;
+            background: #c70000;
+            display: block;
+            left: 37%;
+            margin-top: -15px;
+        }
+        p {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.singleBlog::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 0;
+}

@@ -1,0 +1,92 @@
+.login h1 a {
+    background-image: url('../../assets/img/logo.png');
+    background-size: contain;
+    width: auto;
+    height: 100px
+}
+
+body.login {
+    background: url('../img/bg-login.png') center center #fff;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.login form {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -moz-box-shadow: 0 0 5px 1px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, .3);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, .3)
+}
+
+.login input[type=text],
+.login input[type=checkbox],
+.login input[type=password],
+.login input {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff
+}
+
+.login form input:focus,
+.login form textarea:focus {
+    -moz-box-shadow: 0 0 5px 1px rgba(255, 255, 255, .3);
+    -webkit-box-shadow: 0 0 5px 1px rgba(255, 255, 255, .3);
+    box-shadow: 0 0 5px 1px rgba(255, 255, 255, .3)
+}
+
+input.button-primary {
+    width: 100%;
+    float: right;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px
+}
+
+#login form p.submit {
+    margin: 40px 0 0 0
+}
+
+input.button-primary:hover,
+input.button-primary:active,
+input.button-primary:focus {
+    border: 1px solid #3d5a5a;
+    background: #416b68;
+    color: #fff
+}
+
+#nav,
+#backtoblog,
+#atelie {
+    text-align: center
+}
+
+#atelie,
+#atelie a,
+.login #backtoblog a,
+.login #nav a {
+    color: rgba(0, 0, 0, 0.8)
+}
+
+#atelie a {
+    text-decoration: none
+}
+
+#atelie a:hover {
+    color: #00a0d2
+}
+
+.login label {
+    color: #fff!important
+}
+
+.login #backtoblog {
+    margin: 0
+}

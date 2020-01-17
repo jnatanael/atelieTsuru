@@ -1,0 +1,60 @@
+    footer {
+        @extend .z-depth-5;
+        margin-top: -60px;
+        border-top-right-radius: 60px;
+        border-top-left-radius: 60px;
+        position: relative;
+        aside {
+            padding: 4rem 0;
+            a {
+                color: $off-black;
+                &:hover {
+                    color: $link-color;
+                }
+            }
+            .logotipo {
+                padding-bottom: 30px;
+                margin-bottom: 30px;
+                border-bottom: 1px solid $secondary-color;
+            }
+        }
+        #menu-rodape {
+            display: inline-flex;
+            margin-top: 0;
+            li {
+                margin-right: 10px;
+            }
+        }
+        #social {
+            display: inline-flex;
+            a {
+                margin-right: 5px;
+                i::before {
+                    border: 1px solid $link-color;
+                    border-radius: 100%;
+                    padding: 10px;
+                    transition: background-color 0.5s ease;
+                }
+                &:hover {
+                    i {
+                        color: $link-color;
+                        &::before {
+                            background: #fff;
+                        }
+                    }
+                }
+            }
+        }
+        #copyrightAssinatura {
+            @extend .z-depth-5;
+            border-top-right-radius: 60px;
+            border-top-left-radius: 60px;
+            p,
+            a {
+                color: #fff;
+            }
+            a:hover {
+                color: $link-color;
+            }
+        }
+    }
