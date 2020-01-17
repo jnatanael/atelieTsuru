@@ -1,0 +1,172 @@
+#contentPage{
+	article{
+		background: #fff;
+		padding: 5rem 0;
+	}
+	h2{
+		margin: 0;
+		font-size: 4rem;
+	}
+	h3 {
+		margin: 0 0 2rem;
+	}
+	p{
+		font-size: 1.25rem;
+		line-height: 1.5rem;
+	}
+
+	.slide{
+		height: 400px;
+	}
+}
+
+#institucional{
+	padding-bottom: 5rem;
+}
+
+#politicaQualidade{
+	height: auto;
+	padding: 5rem 0;
+	color: #fff;
+	h2{
+		color: $link-color;
+		margin: 0 0 3rem;
+	}
+	p{
+		font-size: 1.2rem;
+	}
+}
+
+#missaVisaoValores{
+	padding: 5rem 0;
+	background: #fff;
+	font-size: 1.15rem;
+	p{
+		font-size: 1.15rem;	
+	}
+	.item{
+		border: 1px solid $link-color;
+		border-top: none;
+		margin-bottom: 2rem;
+	}
+	.titleItem{
+		background-color: $link-color;
+		background-image: url('../img/icone_t.png');
+		background-position: right;
+		background-repeat: no-repeat;
+		background-size: contain;
+		h3 {
+			margin: 0 0 0 -1px;
+			display: inline-block;
+			background: #000;
+			color: $link-color;
+			padding: 1rem;
+			line-height: 3rem;
+		}
+
+	}
+	.textItem{
+		padding: 1rem 1.5rem;
+		blockquote h3{
+			color: $link-color;
+			font-size: 2rem;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+#infoContato{
+	.cartao{
+		padding: 1.5rem 0;
+		border-top: 1px solid;
+		border-bottom: 1px solid;
+		margin-top: 3rem;
+	}
+	blockquote{
+		margin-bottom: 3rem;
+	}
+	h4{
+		text-transform: uppercase;
+		font-size: 1.1rem;
+		font-weight: 700;
+	}
+	address{
+		font-size: 1.3rem;
+		padding-left: 1rem;
+		border-left: 1px solid;
+	}
+}
+
+#formulario{
+	p{
+		margin: 0;
+	}
+	form{
+		padding: 2rem;
+		background-color: #000;
+
+		.btn{
+			margin-top: 10px;
+			width: 100%;
+			font-weight: 700;
+		}
+
+		.ajax-loader{
+			position: absolute;
+			margin-left: -30px;
+			margin-top: 20px;
+			z-index: 9;
+		}
+	}
+}
+
+#mapa{
+	background-color: #F7F7F7;
+	iframe{
+		width: 100%;
+		height: 300px;
+	}
+}
+
+#searcgPesquisa{
+	label{
+		position: absolute;
+		i{
+			color: $link-color;
+		}
+	}
+}
+
+#prodService{
+	background: color("grey", "lighten-3");
+	header{
+		@extend .center;
+		padding: 5rem 0;
+		h2{
+			font-size: 3rem;
+			margin: 0;
+		}
+		h4{
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: 1.5rem;
+			margin-bottom: 0;
+			line-height: 1rem;
+		}
+	}
+}
+
+#contentProduto{
+	padding-bottom: 4rem;
+	border-bottom: 1px solid;
+}
+
+#listProdutos{
+	margin: 5rem -0.75rem 0;
+	h3{
+		font-weight: 700;
+	}
+	.btn{
+		width: 100%;
+	}
+}

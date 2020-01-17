@@ -1,0 +1,19 @@
+#cta{
+	color: color("shades", "white");
+	h2{
+		margin: 0;
+		font-size: 3rem;
+		strong{
+			color: $link-color;
+			display: block;
+			font-size: 4rem;
+		}
+	}
+	p{
+		font-size: 1.8rem;
+		margin: 2rem 0 4rem;
+	}
+	.btn{
+		font-size: 1.5rem;
+	}
+}

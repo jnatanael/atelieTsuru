@@ -1,0 +1,96 @@
+nav .brand-logo img {
+    height: 100px;
+    width: auto;
+    margin-top: 10px;
+}
+
+#socialMenu {
+    a i::before {
+        border: 1px solid $link-color;
+        border-radius: 100%;
+        padding: 10px;
+    }
+}
+
+.btn-contato a {
+    @extend .btn;
+    @extend .waves-effect;
+    @extend .waves-light;
+}
+
+#headerPage {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10%;
+    height: 100vh;
+    color: color("shades", "white");
+    h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        max-width: 100%;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid $link-color;
+        text-shadow: 1px 2px 0 #000;
+        strong {
+            color: $link-color;
+            display: block;
+            font-size: 4rem;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.scroll,
+.scroll:before {
+    position: absolute;
+}
+
+.scroll:before {
+    left: 50%;
+}
+
+.scroll {
+    width: 40px;
+    height: 70px;
+    margin-top: 30px;
+    box-shadow: inset 0 0 0 1px #fff;
+    border-radius: 25px;
+}
+
+.scroll:before {
+    content: '';
+    width: 4px;
+    height: 20px;
+    background: #fff;
+    margin-left: -2px;
+    top: 8px;
+    border-radius: 4px;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: scroll;
+    animation-name: scroll;
+}
+
+@-webkit-keyframes scroll {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(36px);
+        transform: translateY(36px);
+    }
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(36px);
+        transform: translateY(36px);
+    }
+}

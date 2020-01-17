@@ -1,0 +1,68 @@
+@media #{$small-and-down} {
+	#contentPage h2{
+		font-size: 3rem;
+	}
+
+	#prodService header {
+		h2 {
+			font-size: 2rem;
+		}	
+		h4{
+			font-size: 0.9rem;
+		}
+	}
+
+	#cta {
+		h2{
+			font-size: 2.5rem;
+		}
+	}
+
+	footer {
+		text-align: center;
+		.valign-wrapper{
+			display: block;
+		}
+		.brand-logo{
+			display: none;
+		}
+	}
+
+
+
+	#infoContato {
+		.valign-wrapper{
+			display: block;
+		}
+		h4 {
+			font-size: .9rem;
+		}
+		.brand-logo{
+			display: none;
+		}
+		address {
+			padding-left: 0;
+			border-left: none;
+		}
+	}
+	
+}
+
+@media #{$medium-and-down} {
+	#nav-mobile{
+		text-align: center;
+		.logo{
+			padding-top: 2rem;
+		}
+	}
+
+	#headerPage {
+		align-items: center;
+		h1{
+			max-width: 100%;
+			strong{
+				line-height: 3.5rem;
+			}
+		}
+	}
+}
